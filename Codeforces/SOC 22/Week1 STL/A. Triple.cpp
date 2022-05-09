@@ -14,6 +14,9 @@ using namespace std;
 #define pb push_back 
 
 void solve(){
+    // https://codeforces.com/gym/380573/problem/A
+    //Make an array, take input into it, make a hash map parrallely and keep a track of frequencies. Then iterate over array
+    //and check if frequency of that element >=3 in the hash map.
     int n; cin>>n;
     vi v(n);
     map<int,int> m;
