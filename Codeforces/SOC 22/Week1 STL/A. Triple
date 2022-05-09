@@ -1,6 +1,6 @@
 [A. Triple](https://codeforces.com/gym/380573/problem/A)
 
-`#include <bits/stdc++.h>
+<code>#include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
 #define ld long double 
@@ -42,4 +42,4 @@ int main(){
     }
     
     return 0;
-}`
+}</code>
