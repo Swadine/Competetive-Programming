@@ -53,7 +53,7 @@ int main(){
             }
             int l=0, r=n-1, m;
             while(l<=r){
-                m = l +(r-l)/2;
+                m = l +(r-l)/2; // avoids integer overflow as m is intitialized in int
                 if(p[m]==val){
                     l=m;
                     break;
